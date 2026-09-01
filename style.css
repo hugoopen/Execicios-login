@@ -1,82 +1,23 @@
 *{
     padding: 0;
     margin: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 
-.lado{
-    height: 100%;
+.login-container{
     width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow: hidden;
-}
-
-.esquerdo{
-    left: 0;
-}
-
-.direito{
-    right: 0;
-}
-
-.centro{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.logo-senac{
-    width: 100%;
-    height:auto;
-    align-items: center;
-    justify-content: center;
-}
-
-h1{
-    font-family:Jockey One;
-    font-size: 48px;
-    line-height: 100%;
-    color: #1331A1 ;
-}
-h2{
-    font-family: JOckey One;
-    font-size: 24px;
-    line-height: 100%;
-    color: #1331A1 ;
-}
-
-.acesso{
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    position:fixed;
-    bottom: 20%;
-    align-items: stretch;
-    justify-content: center;
-    color: #1331A1;
-    width: 25%;
-    text-align: center;
-
-}
-
-.container{
-    position: absolute;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
-    top: 50%;
-    left: 50%;
 }
-
-.entrar{
+.wrapper-imagem-right{
     display: flex;
     flex-direction: row;
-    border: 3px solid #1331A1;
-    border-radius: 21px;
-    background-color: #1331A1;
-    color: #FFFFFF;
-    font-family: Jockey One;
+}
+
+img{
+    height: 99.9%;
+    margin: 0;
+    padding: 0;
 }
