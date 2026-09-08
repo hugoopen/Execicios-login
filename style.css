@@ -2,23 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Jockey One;
 }
 
-.login-container{
-    width: 50%;
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
     height: 100vh;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-.wrapper-imagem-right{
-    display: flex;
-    flex-direction: row;
-    border-bottom: ;
+    flex-direction: reverse;
 }
 
-img{
-    height: 99.9%;
-    margin: 0;
-    padding: 0;
+.text-information{
+    margin: 250px 0% 0% 500px
+
 }
+
+.input-container{
+    margin: 20px 300px 0px 500px
+}
+
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);   
+} esse é o meu código atual
