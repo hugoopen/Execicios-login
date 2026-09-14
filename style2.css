@@ -11,14 +11,102 @@ body{
     min-height: 100vh;
     background: url(elementos.login/Show.jpg);
 }
-
-.wrapper{
-    width: 420px;
-    background: #FEFEFE;
-    color: #F2F2F2;
+.text-information{
+    vertical-align: baseline;
+    width: auto;
+    height: 170px;
+    padding: 16px;
+}
+form{
+    padding: 50px;
 }
 
-.logo-senac{
-    position: relative;
-    align-content: center;
+.input-container{
+    vertical-align: baseline;
+    width: 317px;
+    height: 78px;
+}
+
+input [type="text"]{
+    flex-direction: row;
+    width: 317px;
+    height: 44px;
+    border-radius: 11px;
+    border: 1px;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.texto-login{
+    width: 63px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+input [type="password"]{
+    vertical-align: baseline;
+    width: 317px;
+    height: 44px;
+    border-radius: 11px;
+    border: 1px;
+    justify-content: space-between;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.wrapper{
+    vertical-align: baseline;
+    width: 497px;
+    height: 783px;
+    top: 167px;
+    left: 616px;
+    border-radius: 26px;
+    padding-top: 37px;
+    padding-right: 90px;
+    padding-bottom: 37px;
+    padding-left: 90px;
+    padding: 59px;
+    background: #FEFEFE;
+    color: #1331A1;
+    text-align: center;
+}
+
+button [type="submit"]{
+    vertical-align: auto;
+    width: 126px;
+    height: 54px;
+    border-radius: 21px;
+
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding: 10px;
+}
+
+.Button{
+    width: 56px;
+    height: 34px;
+}
+
+.entrar{
+    font-weight: 400px;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 100%;
+    color: #181C49;
+}
+
+img{
+    -webkit-backdrop-filter: blur(54px);
+    backdrop-filter: blur(54px);
 }
