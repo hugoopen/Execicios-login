@@ -49,6 +49,7 @@ input [type="text"]{
     line-height: 100%;
 }
 
+
 input [type="password"]{
     vertical-align: baseline;
     width: 317px;
@@ -91,6 +92,8 @@ button [type="submit"]{
     padding-bottom: 10px;
     padding-left: 35px;
     padding: 10px;
+    background: #1331A1;
+    color: #1331A1;
 }
 
 .Button{
