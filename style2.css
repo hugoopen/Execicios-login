@@ -11,28 +11,35 @@ body{
     min-height: 100vh;
     background: url(elementos.login/Show.jpg);
 }
+
 .text-information{
     vertical-align: baseline;
     width: auto;
-    height: 170px;
+    height: 190px;
     padding: 16px;
 }
+
+h1{
+    padding: 20px;
+}
+
 form{
     padding: 50px;
+    
 }
 
 .input-container{
     vertical-align: baseline;
     width: 317px;
-    height: 78px;
+    height: 88px;
 }
 
 input [type="text"]{
     flex-direction: row;
     width: 317px;
     height: 44px;
+    border: 1px solid #1331A1;
     border-radius: 11px;
-    border: 1px;
 
     padding-top: 5px;
     padding-right: 10px;
@@ -42,8 +49,12 @@ input [type="text"]{
 }
 
 .texto-login{
-    width: 63px;
-    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.texto-senha{
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
@@ -51,12 +62,10 @@ input [type="text"]{
 
 
 input [type="password"]{
-    vertical-align: baseline;
     width: 317px;
     height: 44px;
+    border: 1px solid #1331A1;
     border-radius: 11px;
-    border: 1px;
-    justify-content: space-between;
 
     padding-top: 5px;
     padding-right: 10px;
@@ -64,8 +73,8 @@ input [type="password"]{
     padding-left: 10px;
 }
 
+
 .wrapper{
-    vertical-align: baseline;
     width: 497px;
     height: 783px;
     top: 167px;
@@ -85,7 +94,7 @@ button [type="submit"]{
     vertical-align: auto;
     width: 126px;
     height: 54px;
-    border-radius: 21px;
+    border-radius: 21px color(#1331A1);
 
     padding-top: 10px;
     padding-right: 35px;
@@ -107,9 +116,4 @@ button [type="submit"]{
     font-style: normal;
     line-height: 100%;
     color: #181C49;
-}
-
-img{
-    -webkit-backdrop-filter: blur(54px);
-    backdrop-filter: blur(54px);
 }
