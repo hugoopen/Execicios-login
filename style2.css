@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(elementos.login/Show.jpg);
+    font-family: "Jockey One";
+}
+
+.text-information{
+    vertical-align: baseline;
+    width: auto;
+    height: 190px;
+    padding: 16px;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+form{
+    padding: 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+.input-whapper{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.input-container{
+    vertical-align: baseline;
+    width: 317px;
+    height: 88px;
+    justify-items: center;
+    align-items: center;
+}
+
+input [type="text"]{
+    flex-direction: row;
+    width: 317px;
+    height: 44px;
+    border: 1px solid #1331A1;
+    border-radius: 11px;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.texto-login{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.texto-senha{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+
+input [type="password"]{
+    width: 317px;
+    height: 44px;
+    border: 1px solid #1331A1;
+    border-radius: 11px;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+img.visibilidade{
+    left: 10px;
+    
+    
+}
+
+
+.wrapper{
+    width: 497px;
+    height: 783px;
+    top: 167px;
+    left: 616px;
+    border-radius: 26px;
+    padding-top: 37px;
+    padding-right: 90px;
+    padding-bottom: 37px;
+    padding-left: 90px;
+    padding: 59px;
+    background: #FEFEFE;
+    color: #1331A1;
+    text-align: center;
+}
+
+button [type="submit"]{
+    vertical-align: auto;
+    width: 126px;
+    height: 54px;
+
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding: 10px;
+    color: #1331A1;
+}
+
+.Button{
+    margin: 25px;
+    width: 126px;
+    height: 54px;
+    border-radius: 4px var(rgba(19, 49, 161, 1));
+}
+
+.entrar{
+    font-weight: 400px;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 100%;
+    color: var(rgba(242, 242, 242, 1));
+}
