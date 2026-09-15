@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Jockey One;
 }
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: url(elementos.login/Show.jpg);
+    font-family: "Jockey One";
 }
 
 .text-information{
@@ -21,17 +22,27 @@ body{
 
 h1{
     padding: 20px;
+    text-align: center;
 }
 
 form{
     padding: 50px;
-    
+    align-items: center;
+    justify-items: center;
+}
+
+.input-whapper{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .input-container{
     vertical-align: baseline;
     width: 317px;
     height: 88px;
+    justify-items: center;
+    align-items: center;
 }
 
 input [type="text"]{
@@ -73,6 +84,10 @@ input [type="password"]{
     padding-left: 10px;
 }
 
+.visibilidade{
+    padding-left: 0px;
+}
+
 
 .wrapper{
     width: 497px;
@@ -94,20 +109,20 @@ button [type="submit"]{
     vertical-align: auto;
     width: 126px;
     height: 54px;
-    border-radius: 21px color(#1331A1);
 
     padding-top: 10px;
     padding-right: 35px;
     padding-bottom: 10px;
     padding-left: 35px;
     padding: 10px;
-    background: #1331A1;
     color: #1331A1;
 }
 
 .Button{
-    width: 56px;
-    height: 34px;
+    margin: 25px;
+    width: 126px;
+    height: 54px;
+    border-radius: 4px var(rgba(19, 49, 161, 1));
 }
 
 .entrar{
@@ -115,5 +130,5 @@ button [type="submit"]{
     font-size: 24px;
     font-style: normal;
     line-height: 100%;
-    color: #181C49;
+    color: var(rgba(242, 242, 242, 1));
 }
