@@ -84,10 +84,8 @@ input [type="password"]{
     padding-left: 10px;
 }
 
-img.visibilidade{
-    left: 10px;
-    
-    
+.visibilidade{
+    padding-left: 0px;
 }
 
 

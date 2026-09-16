@@ -12,6 +12,13 @@
     flex-direction: row;
 }
 
+.wrapper-imagem{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
 .bg-imagem-right{
     width: 100%;
     height: 100vh;
@@ -19,13 +26,8 @@
     display: block;
 }
 
-.wrapper-imagem{
-    position: relative;
-    width: 50%;
-    height: 100vh;
-    flex-shrink: 0;
-}
-.login-container{
+
+.login-form{
     width: 50%;
     height: 100vh;
     display: flex;
@@ -34,5 +36,11 @@
     align-items: center;
     position: relative;
     padding: 40px 35px;
+}
+
+.icon-olho-visiblidade{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
