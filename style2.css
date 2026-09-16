@@ -131,7 +131,10 @@ button [type="submit"]{
     margin: 25px;
     width: 126px;
     height: 54px;
-    border-radius: 4px var(rgba(19, 49, 161, 1));
+    border-radius: 52px;
+    border: 4px;
+    background-color: #1331A1;
+    color: rgba(242, 242, 242, 1);
 }
 
 .entrar{
@@ -139,7 +142,6 @@ button [type="submit"]{
     font-size: 24px;
     font-style: normal;
     line-height: 100%;
-    color: rgba(242, 242, 242, 1);
 }
 
 .traco{
