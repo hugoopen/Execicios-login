@@ -32,9 +32,24 @@ form{
 }
 
 .input-whapper{
+    position: relative;
     text-align: center;
     align-items: center;
     justify-items: center;
+}
+
+.input-whapper input{
+    width: 100%;
+    padding-right: 4px;
+}
+
+.visibilidade{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
 }
 
 .input-container{
@@ -84,10 +99,6 @@ input [type="password"]{
     padding-left: 10px;
 }
 
-.visibilidade{
-    padding-left: 0px;
-}
-
 
 .wrapper{
     width: 497px;
@@ -126,11 +137,11 @@ button [type="submit"]{
 }
 
 .entrar{
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 24px;
     font-style: normal;
     line-height: 100%;
-    color: var(rgba(242, 242, 242, 1));
+    color: rgba(242, 242, 242, 1);
 }
 
 .traco{
@@ -142,6 +153,8 @@ button [type="submit"]{
     top: 50%;
 }
 
-.p{
-    text-decoration-color: var(rgba(27, 27, 27, 1));
+p{
+    color:rgba(27, 27, 27, 1);
+    text-decoration: none;
+    font-weight: 400;
 }
