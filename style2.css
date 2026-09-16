@@ -14,7 +14,6 @@ body{
 }
 
 .text-information{
-    vertical-align: baseline;
     width: auto;
     height: 190px;
     padding: 16px;
@@ -53,11 +52,10 @@ form{
 }
 
 .input-container{
-    vertical-align: baseline;
-    width: 317px;
-    height: 88px;
-    justify-items: center;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 15px;
 }
 
 input [type="text"]{
@@ -157,4 +155,5 @@ p{
     color:rgba(27, 27, 27, 1);
     text-decoration: none;
     font-weight: 400;
+    padding: 30px;
 }
