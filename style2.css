@@ -134,3 +134,16 @@ button [type="submit"]{
     line-height: 100%;
     color: var(rgba(242, 242, 242, 1));
 }
+
+.traco{
+    width: 263px;
+    border: 4px;
+    color: rgba(242, 242, 242, 1);
+    align-items: center;
+    justify-items: center;
+    top: 50%;
+}
+
+.p{
+    text-decoration-color: var(rgba(27, 27, 27, 1));
+}
