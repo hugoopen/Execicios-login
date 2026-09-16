@@ -44,11 +44,12 @@ form{
 
 .visibilidade{
     position: absolute;
-    right: 10px;
+    right: 12px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
     width: 20px;
+    padding-top: 3px;
 }
 
 .input-container{
