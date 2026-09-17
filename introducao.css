@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(228, 228, 228, 1);
+}
+
+header{
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        width: 518px;
+        height: 77px;
+        right: 0%;
+        padding: 20% 100%;
+        width: 100%;
+        font-weight: 400;
+    }
+}
+
+.logo-senac{
+    width: 242px;
+    height: 129px;
+}
+
+.barra-horizontal{
+    border: 6px solid;
+    display: flex;
+    color: rgba(162, 202, 2, 1);;
+}
+
+.carrousel{
+    display: flex;
+    width: 100vh;
+}
