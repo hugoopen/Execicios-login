@@ -12,17 +12,19 @@ header{
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
+    align-items: center;
+    padding-left: 20%;
 
 
     ul{
         list-style: none;
         display: flex;
+        position: relative;
         gap: 10px;
         width: 518px;
         height: 77px;
         right: 0%;
-        padding: 20% 100%;
+        padding: 20% 100% 20% 100%;
         width: 100%;
         font-weight: 400;
     }
@@ -34,12 +36,90 @@ header{
 }
 
 .barra-horizontal{
+    position: relative;
     border: 6px solid;
-    display: flex;
-    color: rgba(162, 202, 2, 1);;
+    color: rgba(162, 202, 2, 1);
+    top: 80px;
+    padding-bottom: 27px;
 }
 
-.carrousel{
+.Carrousel{
+    top: 100px;
+    position: relative;
     display: flex;
-    width: 100vh;
+    height: auto;
+    width: 100%;
+    margin: 20px 0px 0px 20px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.divCards{
+    align-items: center;
+    padding-left: 10%;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+    color: rgba(212, 20, 91, 1);
+    padding-left: 10%;
+    padding-top: 50px;
+}
+.nome-do-show{
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.grupo{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-items: center;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.data{
+    position: relative;
+    display: flex;
+    bottom: 5px;
+    gap: 13px;
+    width: 158px;
+    height: 34px;
+}
+
+.dinheiro{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-items: center;
+    
+}
+
+.estilo-pagamento{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-items: center;
+}
+
+button [type="submit"]{
+    width: 166px;
+    height: 50px;
+    border: 21px;
+}
+
+.Button{
+    width: 96px;
+    height: 34px;
+    
 }
