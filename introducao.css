@@ -22,7 +22,7 @@ header{
         list-style: none;
         display: flex;
         position: absolute;
-        gap: 10px;
+        gap: 20px;
         height: 77px;
         padding: 20% 0% 0% 0%;
         padding-bottom: 60px;
@@ -87,8 +87,8 @@ section{
 }
 .divCards{
     align-items: center;
+    justify-items: center;
     padding-left: 10%;
-    padding-bottom: 20%;
 }
 
 .title{
@@ -101,6 +101,7 @@ section{
 }
 .nome-do-show{
     align-items: center;
+    justify-items: center;
     padding-bottom: 20px;
     font-size: 48px;
     font-weight: 400;
@@ -166,21 +167,17 @@ button [type="submit"]{
     display: flex;
     position: absolute;
     align-items: center;
-    justify-items: center;
     margin-top: auto;
+    padding-left: 30%;
     padding-top: 100%;
-    transform: translateY(0%);
-    color:  rgba(244, 244, 244, 1);
-    
+    transform: translateY(0%);  
+    border-top: -80px;
 }
-.Senac{
-    height: 100px;
-    width: 297px;
 
-    font-weight: 400;
-    line-height: 100%;
-    font-size: 128px;
-    border: 50px solid rgba(162, 202, 2, 1);
-    width: 100vw;
+.fundo-verde{
+    margin-top: auto;
+    color: rgba(162, 202, 2, 1);
+    height: 199px;
+    width: 400px;
 
 }
