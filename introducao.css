@@ -177,7 +177,9 @@ button [type="submit"]{
 }
 
 .fundo-verde{
-    margin-top: auto;
+    display: flex;
+    position: relative;
+    border: 1px solid;
     color: rgba(162, 202, 2, 1);
     height: 199px;
     width: 400px;
