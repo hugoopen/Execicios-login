@@ -5,6 +5,7 @@
 }
 
 body{
+    overflow-x: hidden;
     background-color: rgba(228, 228, 228, 1);
 }
 
@@ -58,24 +59,17 @@ header{
     display: flex;
     height: auto;
     width: 100%;
-    margin: 20px 0px 0px 2%;
+    margin: 30px 0px 0px 30px;
 }
 
 .seta{
     display: flex;
     position: relative;
     flex-direction: row;
-}
-
-.right{
-    padding-left: 5%;
-    padding-right: 20%;
-    padding-bottom: 15%;
-    transform: translateY(-50%);
-}
-
-.left{
-    transform: translateX(100ch);
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+    left: 100px;
+    top: -100px;
     
 }
 
@@ -167,11 +161,10 @@ button [type="submit"]{
     display: flex;
     position: absolute;
     align-items: center;
-    margin-top: auto;
+    justify-items: center;
     padding-left: 30%;
-    padding-top: 100%;
+    padding-top: 60%;
     transform: translateY(0%);  
-    border-top: -80px;
 }
 
 .fundo-verde{
@@ -179,5 +172,4 @@ button [type="submit"]{
     color: rgba(162, 202, 2, 1);
     height: 199px;
     width: 400px;
-
 }
